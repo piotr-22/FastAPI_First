@@ -1,0 +1,31 @@
+# Virtual environment
+.venv/
+venv/
+*.venv
+
+# IDE and editor files
+.idea/
+.vscode/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Database files
+test.db
+*.sqlite3
+
+# Environment variables
+.env
+
+# Lock files
+uv.lock
+poetry.lock
+Pipfile.lock
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
